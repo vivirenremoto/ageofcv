@@ -1,0 +1,252 @@
+
+* {
+    cursor: url('img/cursor.cur'), auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+}
+
+H2 {font-weight:normal;}
+
+UL {
+    margin: 10px 0;
+}
+
+LI {
+    margin-bottom: 5px;
+}
+
+LI, LI A{    
+    font-family: 'Kalam', cursive;
+    font-size:19px;
+}
+
+button:focus{
+    outline: none;
+}
+
+#tooltip{font-family:arial;text-align:center;position:fixed;z-index:3;left:0;bottom:0;width:100%;padding:5px 10px;color:#fff;background:black;opacity:0.7;}
+
+#villager {
+    background: url('img/villager_stopped.png');
+    width: 27px;
+    height: 40px;
+    z-index: 3;
+    position: fixed;
+}
+
+#house {
+    background: url('img/house.png');
+    width: 195px;
+    height: 150px;
+    background-size: cover;
+    z-index: 2;
+    position: fixed;
+}
+
+#barracks {
+    background: url('img/barracks.png');
+    width: 195px;
+    height: 150px;
+    background-size: cover;
+    z-index: 2;
+    position: fixed;
+}
+
+#blacksmith {
+    background: url('img/blacksmith.gif');
+    width: 250px;
+    height: 190px;
+    background-size: cover;
+    z-index: 2;
+    position: fixed;
+}
+
+#university {
+    background: url('img/university.png');
+    width: 285px;
+    height: 190px;
+    background-size: cover;
+    z-index: 2;
+    position: fixed;
+}
+
+.tree {
+    background: url('img/tree.png');
+    width: 80px;
+    height: 100px;
+    background-size: contain;
+    z-index: 1;
+    position: fixed;
+    opacity:0.8;
+}
+
+.palm {
+    opacity:1;
+    background-image: url('img/palm.png');
+
+}
+
+.tree_snow {
+    opacity:0.8;
+    background-image: url('img/tree_snow_.png');
+
+}
+
+#eagle {
+    background: url('img/eagle.gif');
+    width: 36px;
+    height: 29px;
+    z-index: 3;
+    position: fixed;
+}
+
+
+
+.eagle_flying_webp {
+    background: url('img/eagle.webp') !important;
+    height:37px !important;
+}
+
+.eagle_flip_x {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+.villager_flip_x {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.villager_walking {
+    background: url('img/villager_walking.gif') !important;
+}
+
+.villager_walking_webp {
+    background: url('img/villager_walking.webp') !important;
+}
+
+#land {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#canvas {
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#paper {
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+    position: fixed;
+    background: url('img/paper.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    z-index: 99;
+    font-family: 'Romanesco', cursive;
+    font-size: 30px;
+    padding: 100px 60px 155px 60px;
+    width: 280px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -300px;
+}
+
+#paper h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+BUTTON {
+    background: #C89565;
+    font-size: 30px;
+    padding: 10px 0;
+    border-radius: 100px;
+    display: block;
+    width: 60px;
+    margin: auto;
+    font-family: arial;
+    font-weight: bold;
+    border: 0;
+    color:black;
+}
+
+BUTTON:HOVER {
+    background: #deaa79;
+}
+
+.flake {
+    z-index: 100;
+    position: fixed !important;
+}
+
+.blur {
+    filter: blur(3px) grayscale(100%);
+    -webkit-filter: blur(3px) grayscale(100%);
+}
+
+
+.car{
+    background-image: url("img/car.png") !important;
+    width: 93px !important;
+    height: 58px !important;
+    filter: drop-shadow(1px 2px 3px black);
+}
+
+
+@media only screen and (max-width: 480px){
+
+
+    #house {
+        width: 160px;
+        height: 130px;
+        background-size:contain;
+    }
+    
+    #barracks {
+        width: 165px;
+        height: 130px;
+        background-size:contain;
+    }
+    
+    #blacksmith {
+        width: 205px;
+        height: 150px;
+        background-size:contain;
+    }
+    
+    #university {
+        width: 210px;
+        height: 140px;
+        background-size:contain;
+    }
+
+    #tooltip{display:none;}
+
+}
+
+
+#special{position:fixed;z-index:9999;left:10px;top:0;width:50px;}
+#special img{border-radius:100px;border:2px black solid;margin:10px 0 0 0;width:40px;height:40px;}
+

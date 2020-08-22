@@ -260,11 +260,11 @@ function init() {
     }
 
     // terreno aleatorio
-    var lands_images = ['_grass.jpg', '_sand.jpg'];
+    var lands_images = ['grass.jpg', 'sand.jpg'];
 
 
     if (document.location.href.indexOf('wololo') == -1) {
-        lands_images.push('_snow.jpg');
+        lands_images.push('snow.jpg');
     }
 
     var land_rand = Math.floor(Math.random() * lands_images.length);

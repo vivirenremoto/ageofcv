@@ -179,6 +179,7 @@ function init() {
 
         $('#paper').hide();
         $('#special').show();
+        $('#play').show();
         $('#land').removeClass('blur');
         document.getElementById('click').play();
     });
@@ -289,6 +290,9 @@ function init() {
             flyEagle();
         }, eagle_speed * 2);
     }
+
+
+    $('#play').delay(1000).fadeIn('slow');
 
 }
 
@@ -451,6 +455,7 @@ function endWalking() {
         $('#paper').show();
         $('#special').hide();
         $('#paper .pages').hide();
+        $('#play').hide();
         $('#content_' + current_building).show();
         $('#land').addClass('blur');
         document.getElementById('sound_' + current_building).play();

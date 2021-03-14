@@ -268,5 +268,5 @@ BUTTON:HOVER {
 
 
 #special{position:fixed;z-index:9999;left:10px;top:0;width:50px;}
-#special img{cursor:pointer;border-radius:100px;border:2px black solid;margin:10px 0 0 0;width:40px;height:40px;}
+#special img{cursor:pointer;border-radius:100px;border:2px black solid;margin:10px 0 0 0;width:40px;height:40px;background:black;}
 

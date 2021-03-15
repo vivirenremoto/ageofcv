@@ -38,16 +38,16 @@ button:focus{
     border:1px #ccc solid;
     display:none;
     padding:5px 0;
-    width:190px;
+    width:140px;
     background:white;
     position:fixed;
     left:50%;
-    top:0;
-    margin-left:-95px;
+    margin-left:-70px;
     text-align:center;
     font-family: Arial;
     z-index:999;
     text-decoration:none;
+    top:0;
 }
 
 #tooltip{font-family:arial;text-align:center;position:fixed;z-index:3;left:0;bottom:0;width:100%;padding:5px 10px;color:#fff;background:black;opacity:0.7;}
@@ -261,8 +261,6 @@ BUTTON:HOVER {
     }
 
     #tooltip{display:none;}
-
-    #play{top:auto;bottom:0;left:0;margin-left:0;width:100%;}
 
 }
 

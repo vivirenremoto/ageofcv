@@ -294,6 +294,22 @@ function init() {
 
     $('#play').delay(1000).fadeIn('slow');
 
+
+    setInterval(function () {
+
+
+        $('#btn_cta').html($('#btn_cta').data('cta2'));
+
+        setTimeout(function () {
+
+
+            $('#btn_cta').html($('#btn_cta').data('cta1'));
+
+        }, 2000);
+
+    }, 4000);
+
+
 }
 
 function flyEagle() {

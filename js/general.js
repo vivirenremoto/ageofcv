@@ -98,7 +98,6 @@ if (screen_width < 480) {
 
 
 
-
 $(function () {
     init();
 });

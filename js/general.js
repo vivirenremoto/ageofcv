@@ -282,7 +282,7 @@ function init() {
     if (screen_width < 480 || document.location.href.indexOf('wololo') > -1) {
         $('#eagle').remove();
     } else {
-        flyEagle();
+
         setInterval(function () {
             flyEagle();
         }, eagle_speed * 2);

@@ -97,9 +97,7 @@ if (screen_width < 480) {
 }
 
 
-// precargar imagenes
-(new Image()).src = 'img/villager_walking.gif';
-(new Image()).src = 'img/paper.png';
+
 
 $(function () {
     init();
